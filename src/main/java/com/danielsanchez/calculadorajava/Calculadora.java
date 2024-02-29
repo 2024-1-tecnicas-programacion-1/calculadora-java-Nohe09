@@ -34,6 +34,10 @@ public class Calculadora {
                 // operacion Modulo 
                     respuesta = numero1 % numero2;
                     break;
+            case 'R':
+                // OPERACION RAIZ
+                    respuesta = Math.pow(numero1,1/numero2);
+                    break;
                             
             // TODO: DEBES CREAR AQUÍ LOS CASES PARA LA OPERACIÓN DE LA POTENCIA Y EL MÓDULO.
                 
